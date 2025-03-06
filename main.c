@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+//Math Functions
 double add(double a, double b) {
     return a + b;
 }
@@ -13,6 +15,7 @@ double divide(double a, double b) {
     return a / b;
 }
 
+//simple implementation
 int main() {
     double a,b;
     printf("First Number: ");
